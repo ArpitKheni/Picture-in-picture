@@ -25,5 +25,8 @@ button.addEventListener('click', async () => {
     button.disabled = false;
 });
 
-// On Load
-selectMediaStream();
+videoElement.onloadedmetadata = function() {
+// On Load trigger the media stream function
+    selectMediaStream();
+
+}
