@@ -13,7 +13,7 @@ async function selectMediaStream() {
         // Catch Error Here
         console.log(error, 'This is the eroror');
     }
-}
+};
 
 button.addEventListener('click', async () => {
     // Disable Button
